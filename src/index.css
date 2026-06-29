@@ -516,3 +516,79 @@
   color: #6b6b6b;
   font-size: 0.9rem;
 }
+/* CityList */
+.city-list {
+  padding: 2rem;
+}
+
+.city-list__title {
+  font-size: 1.4rem;
+  color: #2e2a27;
+  margin-bottom: 1.5rem;
+}
+
+.city-list__items {
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* کارت هر city */
+.city-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 1rem 1.2rem;
+
+  background: #ffffff;
+
+  border-radius: 14px;
+
+  border: 1px solid #e7e0d6;
+
+  transition: 0.3s;
+
+  cursor: pointer;
+}
+
+.city-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.city-item__emoji {
+  font-size: 1.6rem;
+}
+
+.city-item__info {
+  flex: 1;
+
+  margin-left: 1rem;
+}
+
+.city-item__info h3 {
+  font-size: 1rem;
+  color: #2e2a27;
+  margin: 0;
+}
+
+.city-item__info p {
+  font-size: 0.85rem;
+  color: #6b6b6b;
+  margin: 0.2rem 0 0;
+}
+
+.city-item__date {
+  font-size: 0.8rem;
+  color: #7a8450;
+
+  background: #eadbc8;
+
+  padding: 0.3rem 0.7rem;
+
+  border-radius: 999px;
+}
