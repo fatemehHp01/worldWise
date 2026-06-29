@@ -7,11 +7,29 @@ const PageNav = () => {
       <div className="page-nav__logo">
         <span>WorldWise</span>
       </div>
-
       <nav className="page-nav__links">
-        <NavLink to="/product">Product</NavLink>
-        <NavLink to="/pricing">Pricing</NavLink>
-        <NavLink to="/login" className="login-btn">
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link active-link" : "nav-link"
+          }
+          to="/product"
+        >
+          Product
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link active-link" : "nav-link"
+          }
+          to="/pricing"
+        >
+          Pricing
+        </NavLink>
+        <NavLink
+          className={({ isActive }) =>
+            isActive ? "nav-link active-link" : "nav-link"
+          }
+          to="/login"
+        >
           Login
         </NavLink>
       </nav>
