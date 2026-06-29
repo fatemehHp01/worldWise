@@ -1,0 +1,28 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "cityName": "Tehran",
+      "country": "Iran",
+      "emoji": "🇮🇷",
+      "date": "2026-06-29",
+      "notes": "Capital city visit",
+      "position": {
+        "lat": 35.6892,
+        "lng": 51.389
+      }
+    },
+    {
+      "id": 2,
+      "cityName": "Paris",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2025-09-12",
+      "notes": "Eiffel Tower",
+      "position": {
+        "lat": 48.8566,
+        "lng": 2.3522
+      }
+    }
+  ]
+}
