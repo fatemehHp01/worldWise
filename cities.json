@@ -6,7 +6,7 @@
       "country": "Iran",
       "emoji": "🇮🇷",
       "date": "2026-06-29",
-      "notes": "Capital city visit",
+      "notes": "Visited the Grand Bazaar and Golestan Palace.",
       "position": {
         "lat": 35.6892,
         "lng": 51.389
@@ -18,10 +18,106 @@
       "country": "France",
       "emoji": "🇫🇷",
       "date": "2025-09-12",
-      "notes": "Eiffel Tower",
+      "notes": "Spent the evening near the Eiffel Tower.",
       "position": {
         "lat": 48.8566,
         "lng": 2.3522
+      }
+    },
+    {
+      "id": 3,
+      "cityName": "Tokyo",
+      "country": "Japan",
+      "emoji": "🇯🇵",
+      "date": "2025-04-18",
+      "notes": "Explored Shibuya Crossing and enjoyed sushi.",
+      "position": {
+        "lat": 35.6762,
+        "lng": 139.6503
+      }
+    },
+    {
+      "id": 4,
+      "cityName": "New York",
+      "country": "United States",
+      "emoji": "🇺🇸",
+      "date": "2024-08-05",
+      "notes": "Walked through Central Park.",
+      "position": {
+        "lat": 40.7128,
+        "lng": -74.006
+      }
+    },
+    {
+      "id": 5,
+      "cityName": "London",
+      "country": "United Kingdom",
+      "emoji": "🇬🇧",
+      "date": "2025-01-15",
+      "notes": "Visited Big Ben and Buckingham Palace.",
+      "position": {
+        "lat": 51.5074,
+        "lng": -0.1278
+      }
+    },
+    {
+      "id": 6,
+      "cityName": "Rome",
+      "country": "Italy",
+      "emoji": "🇮🇹",
+      "date": "2024-10-20",
+      "notes": "The Colosseum was incredible.",
+      "position": {
+        "lat": 41.9028,
+        "lng": 12.4964
+      }
+    },
+    {
+      "id": 7,
+      "cityName": "Sydney",
+      "country": "Italy",
+      "emoji": "🇦🇺",
+      "date": "2025-02-08",
+      "notes": "Saw the Opera House and Harbour Bridge.",
+      "position": {
+        "lat": -33.8688,
+        "lng": 151.2093
+      }
+    },
+    {
+      "id": 8,
+      "cityName": "Dubai",
+      "country": "United Arab Emirates",
+      "emoji": "🇦🇪",
+      "date": "2025-06-11",
+      "notes": "Visited Burj Khalifa at sunset.",
+      "position": {
+        "lat": 25.2048,
+        "lng": 55.2708
+      }
+    },
+    {
+      "id": 9,
+      "cityName": "Barcelona",
+      "country": "United States",
+      "emoji": "🇪🇸",
+      "date": "2024-09-02",
+      "notes": "Loved the architecture of Sagrada Família.",
+      "position": {
+        "lat": 41.3851,
+        "lng": 2.1734
+      }
+    },
+    {
+      "id": 10,
+      "cityName": "Rio de Janeiro",
+      "country": "Brazil",
+      "emoji": "🇧🇷",
+      "date": "2025-03-27",
+      "notes": "Amazing view from Christ the Redeemer.",
+      "position": {
+        "lat": -22.9068,
+        "lng": -43.1729
       }
     }
   ]

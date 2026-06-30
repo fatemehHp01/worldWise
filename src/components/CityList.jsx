@@ -8,7 +8,7 @@ const CityList = () => {
       <h2 className="city-list__title">Cities List</h2>
       <ul className="city-list__items">
         {cities.map((city) => (
-          <CityItem city={city} />
+          <CityItem city={city} key={city.id} />
         ))}
       </ul>
     </div>
